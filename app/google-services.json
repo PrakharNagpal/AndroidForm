@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "829367364835",
+    "firebase_url": "https://my-form-8bfb4.firebaseio.com",
+    "project_id": "my-form-8bfb4",
+    "storage_bucket": "my-form-8bfb4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:829367364835:android:f9c9e97ded1a8297f8a9d6",
+        "android_client_info": {
+          "package_name": "com.PrakharNagpal.Form"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "829367364835-ehgvfcnj0lo7ab90l75ip3f0uk19bavm.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.PrakharNagpal.Form",
+            "certificate_hash": "ceeff1d1b6b2ee66af1c082e6d299205e73ffa5b"
+          }
+        },
+        {
+          "client_id": "829367364835-ppqtg1l7e9u2khankd5ilm6iab6vonbm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBcljk36njlDZU0U7Zz9g5VqP-7xLUqvr8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "829367364835-ppqtg1l7e9u2khankd5ilm6iab6vonbm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

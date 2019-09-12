@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AddActivity">
+
+    <EditText
+        android:id="@+id/nameEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Name"
+        android:textSize="30sp"
+        />
+    <EditText
+        android:id="@+id/classEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Class"
+        android:textSize="30sp"
+        android:layout_below="@id/nameEditText"/>
+    <EditText
+        android:id="@+id/dobEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Date of Birth"
+        android:textSize="30sp"
+        android:layout_below="@id/classEditText"/>
+    <EditText
+        android:id="@+id/genderEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Gender"
+        android:textSize="30sp"
+        android:layout_below="@id/dobEditText"/>
+    <EditText
+        android:id="@+id/emailEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Email Id"
+        android:textSize="30sp"
+        android:layout_below="@id/genderEditText"/>
+    <EditText
+        android:id="@+id/passwordEditText"
+        android:inputType="textPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Password"
+        android:textSize="30sp"
+        android:layout_below="@id/emailEditText"/>
+    <EditText
+        android:id="@+id/cEditText"
+        android:inputType="textPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Confirm Password"
+        android:textSize="30sp"
+        android:layout_below="@id/passwordEditText"/>
+    <Button
+        android:id="@+id/buttonEditActivity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/cEditText"
+        android:text="Save" />
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fab2MainActivity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="40dp"
+        android:text="Change Password"
+        />
+
+
+
+
+</RelativeLayout>
